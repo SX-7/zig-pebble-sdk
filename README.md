@@ -7,7 +7,7 @@ well as the Zig standard library.
 
 See the included [example watchface](example/) or follow the quickstart below.
 
-zig-pebble-sdk requires Zig version 0.15 and the Pebble SDK.
+zig-pebble-sdk requires Zig version 0.16 and the Pebble SDK.
 
 ## Quickstart
 
