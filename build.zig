@@ -162,6 +162,11 @@ fn pebble_header_fixup(b: *std.Build, pebble_include_path: []const u8) []const u
         \\  TupleType type:8;
     , "  uint8_t type;") catch @panic("OOM");
 
+    // Replace type bitfield with uint8_t in TouchEvent
+    pebble_header = std.mem.replaceOwned(u8, b.allocator, pebble_header,
+        \\  TouchEventType type:8;
+    , "  uint8_t type;") catch @panic("OOM");
+
     // Add packed alignment to Tuple value union type
     pebble_header = std.mem.replaceOwned(u8, b.allocator, pebble_header,
         \\  } value[];
