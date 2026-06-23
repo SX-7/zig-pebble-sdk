@@ -1,3 +1,9 @@
+* v1.4.0 - 06/23/2026
+    * Migrate to Zig 0.16.
+    * Fix `TouchEvent` structure translation in Pebble header.
+    * Contributors
+        * Treelar (@ninjawarrior1337) - d61749a
+
 * v1.3.0 - 05/08/2026
     * Remove bundling, but keep packaging, of PebbleKit JS sources.
         * JavaScript build flow will be provided by the user.
