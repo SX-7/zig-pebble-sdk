@@ -158,11 +158,19 @@ $ PEBBLE_EMULATOR=gabbro zig build upload
 </tr>
 </table>
 
-**Install the Pebble application to a watch:**
+**Install the Pebble application to a watch (via CloudPebble):**
+
+```
+$ PEBBLE_CLOUDPEBBLE=1 zig build upload
+```
+
+**Install the Pebble application to a watch (via local IP):**
 
 ```
 $ PEBBLE_PHONE=<phone ip> zig build upload
 ```
+
+Be sure to enable **Dev Connection** on the watch in the Pebble mobile app.
 
 ## Pebble C API
 
