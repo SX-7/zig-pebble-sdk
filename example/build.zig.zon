@@ -4,10 +4,10 @@
     .dependencies = .{
         .pebble_sdk = .{
             .url = "..",
-            .hash = "pebble_sdk-1.3.0-rN96oAyrAAAJBiNdTvNzkyvTSGq8m4FZk-pizdjcPcAA",
+            .hash = "pebble_sdk-1.4.0-rN96oOqtAACQ1YBBLaM8FiY0aVxbLNlIc_FVNnfAUUt4",
         },
     },
-    .minimum_zig_version = "0.15.2",
+    .minimum_zig_version = "0.16.0",
     .paths = .{""},
     .fingerprint = 0x371b1d9e2ef4a393,
 }
