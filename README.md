@@ -223,6 +223,10 @@ See the [Pebble App
 Configuration](https://developer.repebble.com/guides/user-interfaces/app-configuration-static/)
 page for basic instructions on how to build a configuration page.
 
+See the [Heartburn
+Watchface](https://github.com/vsergeev/pebble-watchface-heartburn) for an
+example of a TypeScript + esbuild build flow.
+
 ## Important Notes
 
 * `GRect(x, y, w, h)`, and similar convenience macros that share the name of
