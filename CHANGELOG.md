@@ -1,3 +1,9 @@
+* v1.4.1 - 07/09/2026
+    * Fix fault caused by Global Offset Table (GOT) section placement
+      overlapping with the heap.
+    * Contributors
+        * Aaron Choo (@AaronCQL) - 2840c3e
+
 * v1.4.0 - 06/23/2026
     * Migrate to Zig 0.16.
     * Fix `TouchEvent` structure translation in Pebble header.
